@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+
+  <!-- CSS yahin likha hai -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+    }
+
+    .navbar {
+      background: #2c3e50;
+      padding: 15px;
+      color: white;
+    }
+
+    .navbar a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px;
+      background: #3498db;
+      color: white;
+    }
+
+    .hero button {
+      padding: 10px 20px;
+      border: none;
+      background: white;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 30px 60px;
+      background: white;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <b>chakradhar bawadkar</b>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Hello, I am chakradhar 👋</h1>
+    <p>2nd Year Computer Engineering Student</p>
+    <button onclick="sayHello()">Click Me</button>
+  </div>
+
+  <!-- About -->
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Engineering student. I am learning programming
+      and web development. I like to make simple websites.
+    </p>
+  </div>
+
+  <!-- Skills -->
+  <div class="section" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C Programming</li>
+      <li>C++</li>
+      <li>Java (Basic)</li>
+      <li>HTML, CSS</li>
+      <li>JavaScript (Basic)</li>
+    </ul>
+  </div>
+
+  <!-- Projects -->
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Calculator using HTML, CSS, JavaScript</li>
+      <li>Resume Website</li>
+      <li>Basic Portfolio Website</li>
+    </ul>
+  </div>
+
+  <!-- Contact -->
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: bawadkarchakrdhar@gmail.com</p>
+    <p>GitHub: github.com/bawadkarchakrdhar-droid</p>
+  </div>
+  <!-- JavaScript yahin likha hai -->
+  <script>
+    function sayHello() {
+      alert("Thank you for visiting my portfolio!");
+    }
+  </script>
+
+</body>
+</html>
